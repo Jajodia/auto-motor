@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+	display: block;
+}
+.logo {
+	height: 30px;
+	margin: 16px;
+}
+.camera{
+
+	padding: 24px;
+	margin: 16px auto;
+	color: rgba(255, 255, 255, 0.205);
+	background-color: black;
+	height: 360px;
+	width: 360px;
+	border-radius: 10px;
+	box-shadow: 0px 4px 8px 1px rgba(0,0,0,0.4);
+}
+.btn-group {
+	margin-top: 36px;
+}
+.btn {
+	font-size: 20px;
+	padding: 8px 48px;
+}
+.meter{
+	margin-right: 16px;
+	height: 40px;
+	transform: rotate(-135deg);
+	transition: transform 0.6s ease-out;
+}
+.meter-start {
+	margin-right: 16px;
+	height: 40px;
+	transform: rotate(135deg);
+	transition: transform 0.6s ease-out;
+}
+.meter-stop{
+	margin-right: 16px;
+	height: 40px;
+	transform: rotate(-135deg);
+	transition: transform 0.6s ease-out;
+}
+.status {
+	margin: 36px;
+	margin-left: 0;
+	font-weight: 600;
+	font-size: 24px;
+	letter-spacing: -0.8px;
+	color: rgb(13, 201, 60);
+
+}
+.btn-cam {
+	position: relative;
+	font-size: 12px;
+	font-weight: 900;
+	bottom: 520px;
+}
